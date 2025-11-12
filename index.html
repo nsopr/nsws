@@ -25,7 +25,7 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
     <figure style="overflow:visible;" id="qtspinner">
       <center style="margin-top:1.5em; line-height:150%">
         <img src="qtlogo.svg" width="320" height="200" style="display:block"></img>
-        <strong>Qt for WebAssembly: wasm_NS_Work_Schedule</strong>
+        <strong>Qt for WebAssembly: appQML_NSws</strong>
         <div id="qtstatus"></div>
         <noscript>JavaScript is disabled. Please enable JavaScript to use this application.</noscript>
       </center>
@@ -62,7 +62,7 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
                                 exitData.text !== undefined ? ` (${exitData.text})` : '';
                             showUi(spinner);
                         },
-                        entryFunction: window.wasm_NS_Work_Schedule_entry,
+                        entryFunction: window.appQML_NSws_entry,
                         containerElements: [screen],
                         
                     }
@@ -73,7 +73,7 @@ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR GPL-3.0-only
             }
         }
     </script>
-    <script src="wasm_NS_Work_Schedule.js"></script>
+    <script src="appQML_NSws.js"></script>
     <script type="text/javascript" src="qtloader.js"></script>
   </body>
 </html>
